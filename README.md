@@ -1,10 +1,8 @@
-# OpenWeatherMapTelegramBot
-
-## OpenWeatherMap API와 Telegram Bot API 사용하여 메세지 전송
-- Telegram Bot 구독한 사용자들에게 특정 지역의 날씨정보 반환
-- 현재 구로 날씨만 일방적으로 제공
+### Automatic send weather information using OpenWeatherMap API and Telegram Bot API
+- Send weather information in specific region to Telegram Bot subscribers.
+- Code wrote in specific region 'Guro'
   
-- 사용 : crontab에 등록하여 매일 특정 시간에 python 명령어로 해당 스크립트 실행
+- Usage : Add crontab to run python script
 
 ```python
 
